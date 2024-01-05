@@ -1,7 +1,7 @@
 from google.cloud import storage
 from google.cloud import client
 import os
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:\\Users\\lucas\\OneDrive\\Documentos\\scripts\\fort\\pyhton adm\\eloquent-ratio-406010-3273ba76b74d.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = ""
 
 def create_backup(backup_name):# cria o bucket de backup
     bucket = storage.Client().bucket(backup_name)
